@@ -1,29 +1,28 @@
 {
-  "name": "iotapplication",
+  "name": "new-owt",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HugoDanielson/IOTApplication.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HugoDanielson/IOTApplication/issues"
-  },
-  "homepage": "https://github.com/HugoDanielson/IOTApplication#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "mongodb": "^3.4.1",
+    "morgan": "^1.9.1",
+    "mongoose": "^6.7.1",
+    "path": "^0.12.7",
+    "pug": "^2.0.4",
+    "react-share": "^3.0.1",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
-    "express": "^4.18.2",
-    "mongoose": "^6.7.1"
+    "node":"18.12.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.20"
-  },
-  "description": ""
+"devDependencies": {
+  "nodemon": "^2.0.20"}
 }
