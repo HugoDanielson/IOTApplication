@@ -1,24 +1,17 @@
-const express = require("express");
-const app = express();
+const express = require("express")
+const app = express()
 
+const port = process.env.PORT || 3500;
 
-//Binds static to folder public. Index then is served with a static web app template from there.
 app.use("/static", express.static("public"));
 
 //view engine config
-
 app.set("view engine", "ejs");
 
 app.get('/', (req, res) => {
-
-    res.render('todo.ejs');
+    res.render('todo.ejs')
 });
 
-app.listen(3000, () => {
-
-    console.log("Server Up and running");
-
-});
-
-
-
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+  })
