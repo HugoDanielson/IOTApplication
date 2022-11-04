@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "",
@@ -15,14 +15,8 @@
     "http-errors": "^1.7.3",
     "mongodb": "^3.4.1",
     "morgan": "^1.9.1",
-    "mongoose": "^6.7.1",
     "path": "^0.12.7",
     "pug": "^2.0.4",
-    "react-share": "^3.0.1",
-    "dotenv": "^16.0.3",
-    "ejs": "^3.1.8",
-    "node":"18.12.0"
-  },
-"devDependencies": {
-  "nodemon": "^2.0.20"}
+    "react-share": "^3.0.1"
+  }
 }
